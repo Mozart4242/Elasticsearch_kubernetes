@@ -10,7 +10,7 @@ This file is going to explain the setup proccess
 | Master    |  10.132.132.102 | kmaster2 |Ubuntu server 20.04 LTS |     8G    | 8   |
 | Worker    |  10.132.132.103 |kworker1  |Ubuntu server 20.04 LTS |     8G    | 8   |
 | Worker    |  10.132.132.104 |  kworker2|Ubuntu server 20.04 LTS |     8G    | 8   |
-
+| Nignx Load Balancer    |  10.132.160.227 |  |Ubuntu server 20.04 LTS |         |    |
 
 ## Approach
 - This Implementation is based on multiple Virtual Machines
