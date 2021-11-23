@@ -188,6 +188,9 @@ Edit the "values.yaml" file
 ## Install Elasticsearch using helm
 
     helm install els elaelasticsearch-7.5.2.tgz -f values.yaml
+    
+## Access the app
+- https://10.132.160.227:9200
 
 
 ## Authors
