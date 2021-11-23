@@ -30,10 +30,10 @@ then
         read -p "Enter the name of your elasticsearch cluster: " name
         read -p "Enter a name for your helm deployment: " hname
         if [ $select == 0 ];
-            helm install $hname ~/nfs_share/kubernetes/elasticsearch-7.5.2.tgz -f els-values.yaml --set clusterName=$name --set replicas=$replica
+            helm install $hname ~/nfs_share/kubernetes/elasticsearch-7.5.2.tgz -f els-values.yaml --set clusterName=$name
             sleep 1
         if [ $select == 1 ];
-            helm upgrade $hname ~/nfs_share/kubernetes/elasticsearch-7.5.2.tgz -f els-values.yaml --set clusterName=$name --set replicas=$replica
+            helm upgrade $hname ~/nfs_share/kubernetes/elasticsearch-7.5.2.tgz -f els-values.yaml --set clusterName=$name
         
         kubectl get svc 
         kubectl get pods -o wide -w
