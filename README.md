@@ -12,6 +12,22 @@ This file is going to explain the setup proccess
 | Worker    |  10.132.132.104 |  kworker2|Ubuntu server 20.04 LTS |     8G    | 8   |
 
 
+## Approach
+- This Implementation is based on multiple Virtual Machines
+- Deploying elasticsearch using kubernetes statefulset
+- Persistent Volumes : **LOCAL**
+- Recomended Persistent Volume in cloud environment: *awsElasticBlockStore*
+- Recomended Persistent Volume in on-prem environment: *glusterfs*
+
+## Design Overview
+![overview](https://user-images.githubusercontent.com/44939554/143050115-7f5e78d9-3e7d-4ad8-a2e6-70c75e18e8b6.png)
+
+## Persisten Volume
+![Picture1](https://user-images.githubusercontent.com/44939554/143050411-348c6b81-d025-41a5-be6e-0b19320de51b.png)
+
+## Services
+![Picture2](https://user-images.githubusercontent.com/44939554/143050635-db61e283-81ea-4a80-8aa3-954163e242b6.png)
+
 ##  Set up load balancer node
 
 Set up load balancer node
@@ -141,7 +157,7 @@ Edit the "values.yaml" file
 
     >> volumeClaimTemplate:
         accessModes: [ "ReadWriteOnce" ]
-        storageClassName: nfs-storage
+        storageClassName: local-storage
         resources:
             requests:
              storage: 5Gi
