@@ -18,7 +18,7 @@ This file is going to explain the setup proccess
 - Persistent Volumes : **LOCAL**
 - Recommended Persistent Volume in cloud environment: *awsElasticBlockStore*
 - Recommended Persistent Volume in on-premise environment: *glusterfs*
-- NFS is not recommended for elasticsearch due to performance issues !
+- *NFS* is not recommended for elasticsearch due to performance issues !
 
 ## Design Overview
 ![overview](https://user-images.githubusercontent.com/44939554/143050115-7f5e78d9-3e7d-4ad8-a2e6-70c75e18e8b6.png)
