@@ -22,7 +22,7 @@ This file is going to explain the setup proccess
 ## Design Overview
 ![overview](https://user-images.githubusercontent.com/44939554/143050115-7f5e78d9-3e7d-4ad8-a2e6-70c75e18e8b6.png)
 
-## Persisten Volume
+## Persistent Volume
 ![Picture1](https://user-images.githubusercontent.com/44939554/143050411-348c6b81-d025-41a5-be6e-0b19320de51b.png)
 
 ## Services
