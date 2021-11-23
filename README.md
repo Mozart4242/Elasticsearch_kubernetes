@@ -17,7 +17,7 @@ This file is going to explain the setup proccess
 - Deploying elasticsearch using kubernetes statefulset
 - Persistent Volumes : **LOCAL**
 - Recomended Persistent Volume in cloud environment: *awsElasticBlockStore*
-- Recomended Persistent Volume in on-prem environment: *glusterfs*
+- Recomended Persistent Volume in on-premise environment: *glusterfs*
 
 ## Design Overview
 ![overview](https://user-images.githubusercontent.com/44939554/143050115-7f5e78d9-3e7d-4ad8-a2e6-70c75e18e8b6.png)
