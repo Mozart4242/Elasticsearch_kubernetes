@@ -176,7 +176,7 @@ Edit the "values.yaml" file
     
 ## Create the persistent volume manifest
 
-- download the manifest from the provided file
+- download the manifest from the provided files
 
 - deploy the Persistent Volume manifest
 
