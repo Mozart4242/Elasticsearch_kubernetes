@@ -1,7 +1,7 @@
 
 # Elasticsearch on K8S
 
-This file is going to explain the setup proccess
+We are going to setup a fully redundant and highly available elasticsearch cluster on kubernetes.
 ## Environment
 | Role     | IP     | DNS name  |     OS    | RAM         |CPU|
 | ---------| ------ |----|-------|-------------|----|
