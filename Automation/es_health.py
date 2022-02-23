@@ -5,7 +5,7 @@ import requests
 
 es = Elasticsearch(
     ['10.132.160.222'],
-#    http_auth=('ciso', 'qw12QW12'),
+#    http_auth=('user', 'password'),
     scheme="http",
     port=9200,
 #    verify_certs=False
